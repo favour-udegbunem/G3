@@ -4,6 +4,27 @@ import Cover from "../assets/Cover.png";
 
 const products = [
   {
+    id: "bundle-6",
+    name: "6-in-1 Complete Collection",
+    type: "Complete Collection",
+    description:
+      "The complete G3 collection, giving your girl access to all six books in one powerful package.",
+    books: [
+      "Why Well Train Girls Misbehave During Valentine & How to Avoid The Trap",
+      "Managing Peer Pressure As A Girl",
+      "The Purpose Driven Girl",
+      "Making Wise Decisions",
+      "I Dare To Be Confident",
+      "The Girls World",
+    ],
+    price: 55000,
+    oldPrice: 70000,
+    discount: "SAVE 21%",
+    image: Cover,
+    featured: true,
+  },
+
+  {
     id: "combo-2",
     name: "2-in-1 Combo",
     type: "Combo",
@@ -32,27 +53,6 @@ const products = [
     oldPrice: 45000,
     discount: "SAVE 22%",
     image: Bundle,
-  },
-
-  {
-    id: "bundle-6",
-    name: "6-in-1 Complete Collection",
-    type: "Complete Collection",
-    description:
-      "The complete G3 collection, giving your girl access to all six books in one powerful package.",
-    books: [
-      "Why Well Train Girls Misbehave During Valentine & How to Avoid The Trap",
-      "Managing Peer Pressure As A Girl",
-      "The Purpose Driven Girl",
-      "Making Wise Decisions",
-      "I Dare To Be Confident",
-      "The Girls World",
-    ],
-    price: 55000,
-    oldPrice: 70000,
-    discount: "SAVE 21%",
-    image: Cover,
-    featured: true,
   },
 ];
 
